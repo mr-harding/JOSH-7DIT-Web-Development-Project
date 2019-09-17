@@ -1,0 +1,178 @@
+
+*{
+    margin: 0px;
+    padding 0px;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: rgba(9, 171, 22, 0.53);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    z-index: 1;
+}
+
+
+header h1 a {
+    font-size: 200%;
+    float: left;
+    padding: 25px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li, nav a {
+    display: inline-block;
+
+}
+
+nav ul{
+    float: right;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 25px 20px;
+    color: #FFFFFF;
+
+}
+
+nav a:hover{
+    color: #ff0000
+}
+
+nav li {
+    padding: 10px 0px;
+}
+
+.hero-img{
+    background-image: url(https://images.unsplash.com/photo-1454922915609-78549ad709bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+}
+.hero-img h2 {
+   position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    font-size: 300%;
+}
+
+.description {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: none;
+
+}
+
+
+
+
+.description h1 {
+  column-span:all;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: rgba(0, 230, 99);
+  font-size: 30px;
+}
+
+#learn-info{
+  text-align: center;
+  border: 10px;
+padding: 20px;
+}
+
+#purchase-info{
+  text-align: center;
+  border:10px;
+  padding: 20px;
+
+}
+
+#learn-info-img{
+vertical-align: center;
+padding:20px;
+margin-left: 50px;
+border-radius: 50px;
+}
+
+#purchase-info-img{
+  vertical-align: center;
+  padding:20px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+
+
+
+
+
+.text-block {
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 90%;
+    line-height: 150%;
+    text-align: justify;
+}
+
+
+.feature{
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 40px 0px;
+}
+
+#learn {
+    
+}
+
+#purchase {
+
+}
+
+.feature h2 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    padding: 200px;
+}
+
+
+footer {
+    color: #FFFFFF;
+    background-color: #7B1FA2;
+    padding: 25px 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color: #E91E63;
+}
+
+footer li {
+    padding: 10px 0px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li, footer a {
+    display: inline-block;
+}
