@@ -74,8 +74,6 @@ nav li {
 }
 
 
-
-
 .description h1 {
   column-span:all;
   padding-bottom: 25px;
@@ -83,6 +81,7 @@ nav li {
   text-align: center;
   background-color: rgba(0, 230, 99);
   font-size: 30px;
+  color: white;
 }
 
 #learn-info{
@@ -112,19 +111,6 @@ border-radius: 50px;
   margin-left: 50px;
 }
 
-
-
-
-
-.text-block {
-    margin: 50px auto;
-    max-width: 1200px;
-    width: 90%;
-    line-height: 150%;
-    text-align: justify;
-}
-
-
 .feature{
     height: 500px;
     background-size: cover;
@@ -134,11 +120,91 @@ border-radius: 50px;
 }
 
 #learn {
-    
+    background-image: url(https://images.unsplash.com/photo-1421217336522-861978fdf33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
 }
 
-#purchase {
+#learn-content{
+  column-count: 2;
+  column-gap: 30px;
+}
 
+#learn-content h1{
+  column-span:all;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: rgba(0, 230, 99);
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+#learn-content h2{
+  column-span:all;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: rgba(0, 230, 99);
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+#learn-content h3{
+  column-span:all;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: rgba(0, 230, 99);
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+
+#zombie-lesson{
+  margin-left: 20px;
+  border: 5px;
+  border-color:rgba(0, 230, 99);
+  border-style: solid;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+#cant-stop-lesson{
+  margin-left: 20px;
+  border: 5px;
+  border-color:rgba(0, 230, 99);
+  border-style: solid;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+#fire-and-flames-lesson{
+  margin-left: 20px;
+  border: 5px;
+  border-color:rgba(0, 230, 99);
+  border-style: solid;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+
+
+#learn-content p{
+  text-align: center;
+  border: 5px;
+  border-color: rgba(0, 230, 99);
+  border-style: solid;
+  font-size: 35px;
+  margin-right:5px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+
+#purchase {
+    background-image:url(https://images.unsplash.com/photo-1515850031371-8230418d8aed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1604&q=80);
 }
 
 .feature h2 {
