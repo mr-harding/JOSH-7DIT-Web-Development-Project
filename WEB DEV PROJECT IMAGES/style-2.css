@@ -3,7 +3,7 @@
     margin: 0px;
     padding 0px;
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 24px;
     scroll-behavior: smooth;
 }
@@ -65,6 +65,7 @@ nav li {
     left: 10%;
     color: white;
     font-size: 300%;
+    margin-left: 45px;
 }
 
 .description {
@@ -80,7 +81,7 @@ nav li {
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   color: white;
 }
@@ -99,17 +100,23 @@ padding: 20px;
 }
 
 #learn-info-img{
-vertical-align: center;
-padding:20px;
-margin-left: 50px;
-border-radius: 50px;
+  vertical-align: center;
+  border-radius: 50px;
+  margin-left: 50px;
+  border-color: rgba(8, 209, 49);
+  border-style: solid;
+  font-size: 35px;
+  margin-top: 10px;
 }
 
 #purchase-info-img{
   vertical-align: center;
-  padding:20px;
   border-radius: 50px;
   margin-left: 50px;
+  border-color: rgba(8, 209, 49);
+  border-style: solid;
+  font-size: 35px;
+  margin-top: 10px;
 }
 
 .feature{
@@ -134,7 +141,7 @@ border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   margin-bottom: 25px;
   color: white;
@@ -145,7 +152,7 @@ border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   margin-bottom: 25px;
   color: white;
@@ -156,7 +163,7 @@ border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   margin-bottom: 25px;
   color: white;
@@ -166,7 +173,7 @@ border-radius: 50px;
 #zombie-lesson{
   margin-left: 20px;
   border: 5px;
-  border-color:rgba(0, 230, 99);
+  border-color:rgba(8, 209, 49);
   border-style: solid;
   margin-bottom: 20px;
   border-radius: 50px;
@@ -175,7 +182,7 @@ border-radius: 50px;
 #cant-stop-lesson{
   margin-left: 20px;
   border: 5px;
-  border-color:rgba(0, 230, 99);
+  border-color:rgba(8, 209, 49);
   border-style: solid;
   margin-bottom: 20px;
   border-radius: 50px;
@@ -184,7 +191,7 @@ border-radius: 50px;
 #fire-and-flames-lesson{
   margin-left: 20px;
   border: 5px;
-  border-color:rgba(0, 230, 99);
+  border-color:rgba(8, 209, 49);
   border-style: solid;
   margin-bottom: 20px;
   border-radius: 50px;
@@ -195,13 +202,15 @@ border-radius: 50px;
 #learn-content p{
   text-align: center;
   border: 5px;
-  border-color: rgba(0, 230, 99);
+  border-color: rgba(8, 209, 49);
   border-style: solid;
   font-size: 35px;
   margin-right:5px;
   margin-bottom: 20px;
   border-radius: 50px;
   padding: 4px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
@@ -220,7 +229,7 @@ border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   margin-bottom: 25px;
   color: white;
@@ -230,24 +239,24 @@ border-radius: 50px;
   border: 5px;
   border-radius: 50px;
   border-style: solid;
-  border-color:rgba(0, 230, 99);
+  border-color:rgba(8, 209, 49);
   margin-left: 20px;
 }
 
 #purchase-content img:hover{
   border:15px;
-  border-color:rgba(0, 230, 99);
+  border-color:rgba(8, 209, 49);
   border-style: solid;
 }
 
 #purchase-content p{
   text-align: center;
   border: 5px;
-  border-color: rgba(0, 230, 99);
+  border-color: rgba(8, 209, 49);
   border-style: solid;
   font-size: 35px;
   margin-right:5px;
-  
+
   border-radius: 50px;
   padding: 4px;
   margin-left: 20px;
@@ -260,7 +269,7 @@ border-radius: 50px;
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
-  background-color: rgba(0, 230, 99);
+  background-color: rgba(8, 209, 49);
   font-size: 30px;
   margin-bottom: 25px;
   color: white;
@@ -279,30 +288,9 @@ border-radius: 50px;
 
 footer {
     color: #FFFFFF;
-    background-color: #7B1FA2;
+    background-color:rgba(8, 209, 49) ;
     padding: 25px 20px;
     margin-top: 25px;
     column-span: all;
-
-}
-
-footer a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-footer a:hover{
-    color: #E91E63;
-}
-
-footer li {
-    padding: 10px 0px;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li, footer a {
-    display: inline-block;
+    font-size: 15px;
 }
